@@ -1,145 +1,148 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .photo {
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(210, 208, 215);
-  }
-  
-  .title-date {
-    text-align: right;
-  }
-  
-  .photo-title {
-    margin: 0;
-  }
-  
-  .date {
-    margin: 0;
-    font-size: 0.8em;
-  }
-  
-  .description {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  
-  .image {
-    width: 100%;
-    height: auto;
+.div1 {
+  text-align: center;
 }
 
-.photo2 {
-    margin-left: 500px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(210, 208, 215);
-    margin-top: 30px;
+.header {
+  text-align: center;
+  align-items: center;
+  width: 400px;
+  margin-left: 35%;
+}
+
+.div2 {
+margin-left: 35%;
+width: 400px;
+position: relative;
+border: 1px solid;
+
+}
+
+.title {
+display: inline-block;
+position: absolute;
+left: 2px;
+top: 0;
+}
+
+.date {
+  display: inline-block;
+  position: absolute;
+  right: -300px;
+  top: 0;
+
+}
+
+img {
+  width: 100%;
+  padding-top: 50px;
+  height: 310px;
+  position: relative;
+ 
+}
+
+.pie {
+  text-align: center;
+  padding-top: 1px;
+  position: absolute;
+  border: 1px solid;
+  right: -1px;
+  width: 400px;
+  }
+
+.div3 {
+  margin-left: 35%;
+  width: 400px;
+  position: relative;
+  border: 1px solid;
+  top: 200px;
   }
   
-  .title-date2 {
-    text-align: right;
-  }
-  
-  .photo-title2 {
-    margin: 0;
+  .title2 {
+  display: inline-block;
+  position: absolute;
+  left: 2px;
   }
   
   .date2 {
-    margin: 0;
-    font-size: 0.8em;
-  }
+    display: inline-block;
+      position: absolute;
+      right: -290px;
+      bottom: 0px;
+      }
   
-  .description2 {
-    width: 100%;
+  
+  
+  .pie2 {
     text-align: center;
-    margin-bottom: 1em;
+    position: absolute;
+    border: 1px solid;
+    top: 360px;
+    height: 59px;
+    right: -1px;
+    width: 400px;
   }
-  
-  .image2 {
-    width: 100%;
-    height: auto;
-}
 
-.photo3 {
-    margin-left: 500px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(210, 208, 215);
-    margin-top: 30px;
-  }
+  .div4 {
+    margin-left: 35%;
+    width: 400px;
+    position: relative;
+    border: 1px solid;
+    top: 350px;
+    }
+    
+    .title3 {
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    }
+    
+    .date3 {
+      display: inline-block;
+        position: absolute;
+        right: -224px;
+        bottom: 0px;
+        }
   
-  .title-date3 {
-    text-align: right;
-  }
-  
-  .photo-title3 {
-    margin: 0;
-  }
-  
-  .date3 {
-    margin: 0;
-    font-size: 0.8em;
-  }
-  
-  .description3 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  
-  .image3 {
-    width: 100%;
-    height: auto;
-}
+    
+    .pie3 {
+      text-align: center;
+      position: absolute;
+      border: 1px solid;
+      top: 360px;
+      height: 59px;
+    right: -1px;
+    width: 400px;
+    }
 
-.photo4 {
-    margin-left: 500px;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(210, 208, 215);
-    margin-top: 30px;
-  }
-  
-  .title-date4 {
-    text-align: right;
-  }
-  
-  .photo-title4 {
-    margin: 0;
-  }
-  
-  .date4 {
-    margin: 0;
-    font-size: 0.8em;
-  }
-  
-  .description4 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  
-  .image4 {
-    width: 100%;
-    height: auto;
-}
+    .div5 {
+      margin-left: 35%;
+      width: 400px;
+      position: relative;
+      border: 1px solid;
+      top: 500px;
+      }
+      
+      .title4 {
+      display: inline-block;
+      position: absolute;
+      left: 2px;
+      }
+      
+      .date4 {
+        display: inline-block;
+          position: absolute;
+          right: -255px;
+          bottom: 0px;
+          }
+      
+     
+      
+      .pie4 {
+        text-align: center;
+        position: absolute;
+        border: 1px solid;
+        top: 360px;
+        height: 59px;
+    right: -1px;
+    width: 400px;
+      }
